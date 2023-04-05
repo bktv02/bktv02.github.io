@@ -7,7 +7,7 @@
         <div class="container">
             <h2>1.作业1</h2>
             <p>作业1说明：红楼梦中各人物出现的次数</p>
-            <a target="_blank" href="https://bktv02.github.io/1.html">作业1链接</a>
+            <a href="https://bktv02.github.io/1.html">作业1链接</a>
             <h2>2.作业2</h2>
             <p>作业2说明：中国各省2022年的平均工资情况</p>
             <a href="https://bktv02.github.io/2.html">作业2链接</a>
