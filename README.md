@@ -13,7 +13,7 @@
             <a href="https://kutueva.github.io/2.html">作业2链接</a>
             <h2>3.作业3</h2>
             <p>作业3说明：2022年企业A的销售额利润情况</p>
-            <a href="https://kutueva.github.io/3.html">作业3链接</a>
+            <a href="https://bktv02.github.io/3.html">作业3链接</a>
         </div>
     </body>
 </html>
