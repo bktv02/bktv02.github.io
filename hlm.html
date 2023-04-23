@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/echarts.min.js"></script>
+
+</head>
+<body >
+    <div class="container" style=" max-width: 1500px; margin: auto; margin-bottom: 90px;">
+        <h1 style="text-align: center;">红楼梦</h1>
+        <p>《红楼梦》，原名《石头记》，中国古代章回体长篇小说，中国古典四大名著之一。其通行本共120回，一般认为前80回是清代作家曹雪芹所著，后40回作者为无名氏，由高鹗，程伟元整理。小说以贾、史、王、薛四大家族的兴衰为背景，以富贵公子贾宝玉为视角，以贾宝玉与林黛玉、薛宝钗的爱情婚姻悲剧为主线，描绘了一些闺阁佳人的人生百态，展现了真正的人性美和悲剧美，是一部从各个角度展现女性美以及中国古代社会百态的史诗性著作。</p>
+        <div style="max-width:600px; margin: auto;"><img src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fsafe-img.xhscdn.com%2Fbw1%2Fe137b9f1-0c48-4ed2-8ded-cb3e66a52899%3FimageView2%2F2%2Fw%2F1080%2Fformat%2Fjpg&refer=http%3A%2F%2Fsafe-img.xhscdn.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1684839810&t=4807aed1b309fd433214601f1f1ddaf0" alt="图片加载失败"></div>
+    </div>
+    <div id="5216894dc642416fb80d3539017565ff" class="chart-container" style="width:900px; height:500px; "></div>
+    <script>
+        var chart_5216894dc642416fb80d3539017565ff = echarts.init(
+            document.getElementById('5216894dc642416fb80d3539017565ff'), 'white', {renderer: 'canvas'});
+        var option_5216894dc642416fb80d3539017565ff = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "aria": {
+        "enabled": false
+    },
+    "color": [
+        "#5470c6",
+        "#91cc75",
+        "#fac858",
+        "#ee6666",
+        "#73c0de",
+        "#3ba272",
+        "#fc8452",
+        "#9a60b4",
+        "#ea7ccc"
+    ],
+    "series": [
+        {
+            "type": "graph",
+            "layout": "force",
+            "symbolSize": 10,
+            "circular": {
+                "rotateLabel": false
+            },
+            "force": {
+                "repulsion": 1000,
+                "gravity": 0.2,
+                "edgeLength": [
+                    10,
+                    100
+                ],
+                "friction": 0.6,
+                "layoutAnimation": true
+            },
+            "label": {
+                "show": true,
+                "margin": 8
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "roam": true,
+            "draggable": false,
+            "focusNodeAdjacency": true,
+            "data": [
+                {
+                    "name": "\u5b9d\u7389",
+                    "fixed": false,
+                    "value": 3784,
+                    "category": 1,
+                    "symbolSize": 90
+                },
+                {
+                    "name": "\u8d3e\u6bcd",
+                    "fixed": false,
+                    "value": 1255,
+                    "category": 1,
+                    "symbolSize": 80
+                },
+                {
+                    "name": "\u51e4\u59d0",
+                    "fixed": false,
+                    "value": 1134,
+                    "category": 1,
+                    "symbolSize": 70
+                },
+                {
+                    "name": "\u738b\u592b\u4eba",
+                    "fixed": false,
+                    "value": 1015,
+                    "category": 1,
+                    "symbolSize": 60
+                },
+                {
+                    "name": "\u9edb\u7389",
+                    "fixed": false,
+                    "value": 870,
+                    "category": 2,
+                    "symbolSize": 50
+                },
+                {
+                    "name": "\u5b9d\u9497",
+                    "fixed": false,
+                    "value": 749,
+                    "category": 2,
+                    "symbolSize": 40
+                },
+                {
+                    "name": "\u8d3e\u740f",
+                    "fixed": false,
+                    "value": 684,
+                    "category": 2,
+                    "symbolSize": 30
+                },
+                {
+                    "name": "\u859b\u59e8\u5988",
+                    "fixed": false,
+                    "value": 455,
+                    "category": 3,
+                    "symbolSize": 20
+                },
+                {
+                    "name": "\u8d3e\u653f",
+                    "fixed": false,
+                    "value": 436,
+                    "category": 3,
+                    "symbolSize": 10
+                }
+            ],
+            "categories": [
+                {},
+                {
+                    "name": "\u5927\u4e8e1000\u6b21"
+                },
+                {
+                    "name": "\u5c0f\u4e8e1000\uff0c\u5927\u4e8e500"
+                },
+                {
+                    "name": "\u5c0f\u4e8e500"
+                }
+            ],
+            "edgeLabel": {
+                "show": false,
+                "margin": 8
+            },
+            "edgeSymbol": [
+                null,
+                null
+            ],
+            "edgeSymbolSize": 10,
+            "links": [
+                {
+                    "source": "\u8d3e\u6bcd",
+                    "target": "\u5b9d\u7389",
+                    "value": 18000
+                },
+                {
+                    "source": "\u51e4\u59d0",
+                    "target": "\u5b9d\u7389",
+                    "value": 10000
+                },
+                {
+                    "source": "\u738b\u592b\u4eba",
+                    "target": "\u5b9d\u7389",
+                    "value": 5000
+                },
+                {
+                    "source": "\u9edb\u7389",
+                    "target": "\u5b9d\u7389",
+                    "value": 1000
+                },
+                {
+                    "source": "\u5b9d\u9497",
+                    "target": "\u5b9d\u7389",
+                    "value": 20000
+                },
+                {
+                    "source": "\u8d3e\u740f",
+                    "target": "\u5b9d\u7389",
+                    "value": 10000
+                },
+                {
+                    "source": "\u859b\u59e8\u5988",
+                    "target": "\u5b9d\u7389",
+                    "value": 5000
+                },
+                {
+                    "source": "\u8d3e\u653f",
+                    "target": "\u5b9d\u7389",
+                    "value": 1000
+                }
+            ]
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "",
+                "\u5927\u4e8e1000\u6b21",
+                "\u5c0f\u4e8e1000\uff0c\u5927\u4e8e500",
+                "\u5c0f\u4e8e500"
+            ],
+            "selected": {
+                "": true,
+                "\u5927\u4e8e1000\u6b21": true,
+                "\u5c0f\u4e8e1000\uff0c\u5927\u4e8e500": true,
+                "\u5c0f\u4e8e500": true
+            },
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14,
+            "backgroundColor": "transparent",
+            "borderColor": "#ccc",
+            "borderWidth": 1,
+            "borderRadius": 0,
+            "pageButtonItemGap": 5,
+            "pageButtonPosition": "end",
+            "pageFormatter": "{current}/{total}",
+            "pageIconColor": "#2f4554",
+            "pageIconInactiveColor": "#aaa",
+            "pageIconSize": 15,
+            "animationDurationUpdate": 800,
+            "selector": false,
+            "selectorPosition": "auto",
+            "selectorItemGap": 7,
+            "selectorButtonGap": 10
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "enterable": false,
+        "confine": false,
+        "appendToBody": false,
+        "transitionDuration": 0.4,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5,
+        "order": "seriesAsc"
+    },
+    "title": [
+        {
+            "show": true,
+            "text": "\u7ea2\u697c\u68a6\u5173\u7cfb\u56fe",
+            "target": "blank",
+            "subtarget": "blank",
+            "padding": 5,
+            "itemGap": 10,
+            "textAlign": "auto",
+            "textVerticalAlign": "auto",
+            "triggerEvent": false
+        }
+    ]
+};
+        chart_5216894dc642416fb80d3539017565ff.setOption(option_5216894dc642416fb80d3539017565ff);
+    </script>
+</body>
+</html>
