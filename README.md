@@ -18,6 +18,9 @@
             <h2>作业1</h2>
             <p>作业1说明：哔哩哔哩的搜索引擎</p>
             <a href="https://bktv02.github.io/bilibili.html">作业1链接</a>
+            <h2>作业2</h2>
+            <p>作业2说明：红楼梦人物关系图</p>
+            <a href="https://bktv02.github.io/hlm.html">作业2链接</a>
         </div>
     </body>
 </html>
